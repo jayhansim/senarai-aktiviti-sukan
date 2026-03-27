@@ -3,6 +3,10 @@
 A single-page web app for browsing 1,453 licensed sports events from Malaysia's Ministry of Youth and Sports (eRosa KBS). 
 Link: https://erosa.kbs.gov.my/carian_pelesenan/aktivitisukan_list.php
 
+## Reason of building this
+
+I'm a runner and as Malaysian we can enjoy tax relief from participating in races, provided that the competition organiser is approved and licensed by the Commissioner of Sports. Then I found the list on eRosa KBS website. The user experience of the website wasn't optimal. Hence with the help of AI, I recreate the table and made some enhancements by adding filters and more responsive search capabilities using modern web tech. 
+
 ## Usage
 
 Open `index.html` directly in a browser, or serve it locally:
