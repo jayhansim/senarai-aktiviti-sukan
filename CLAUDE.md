@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Single-page web app for browsing 1,453 licensed sports events from Malaysia's Ministry of Youth and Sports (eRosa KBS). No build step, no backend, no package manager — open `aktiviti_sukan.html` directly in a browser.
+Single-page web app for browsing 1,453 licensed sports events from Malaysia's Ministry of Youth and Sports (eRosa KBS). No build step, no backend, no package manager — open `index.html` directly in a browser.
 
 ## Commands
 
@@ -12,12 +12,12 @@ There are no build, lint, or test commands. To preview changes, open the HTML fi
 
 ```bash
 python3 -m http.server 8080
-# then open http://localhost:8080/aktiviti_sukan.html
+# then open http://localhost:8080/index.html
 ```
 
 ## Architecture
 
-Everything lives in **`aktiviti_sukan.html`** — markup, styles, JavaScript, and all 1,453 data records embedded as a JS array (`ALL_DATA`). The CSV (`aktiviti_sukan.csv`) is the original data source; changes to data require re-embedding it into the HTML.
+Everything lives in **`index.html`** — markup, styles, JavaScript, and all 1,453 data records embedded as a JS array (`ALL_DATA`). The CSV (`aktiviti_sukan.csv`) is the original data source; changes to data require re-embedding it into the HTML.
 
 ### Data flow
 

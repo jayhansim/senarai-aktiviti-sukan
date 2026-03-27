@@ -5,11 +5,11 @@ Link: https://erosa.kbs.gov.my/carian_pelesenan/aktivitisukan_list.php
 
 ## Usage
 
-Open `aktiviti_sukan.html` directly in a browser, or serve it locally:
+Open `index.html` directly in a browser, or serve it locally:
 
 ```bash
 python3 -m http.server 8080
-# open http://localhost:8080/aktiviti_sukan.html
+# open http://localhost:8080/index.html
 ```
 
 No build step, no backend, no dependencies to install.
@@ -26,7 +26,7 @@ No build step, no backend, no dependencies to install.
 
 | File | Purpose |
 |------|---------|
-| `aktiviti_sukan.html` | Main app — markup, styles, JS, and all data embedded |
+| `index.html` | Main app — markup, styles, JS, and all data embedded |
 | `aktiviti_sukan.csv` | Source data (1,453 rows) |
 
 For detailed documentation, see [OVERVIEW.md](OVERVIEW.md).

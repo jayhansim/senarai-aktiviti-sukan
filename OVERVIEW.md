@@ -16,7 +16,7 @@ A single-page web app for browsing and searching licensed sports events register
 
 | File | Size | Purpose |
 |------|------|---------|
-| `aktiviti_sukan.html` | ~315 KB | Main application (HTML + CSS + JS + embedded data) |
+| `index.html` | ~315 KB | Main application (HTML + CSS + JS + embedded data) |
 | `aktiviti_sukan.csv` | ~132 KB | Source data (1,453 rows) |
 
 ### CSV Columns
@@ -136,4 +136,4 @@ User input
 
 ## Deployment
 
-Open `aktiviti_sukan.html` in any browser — no server or build step needed.
+Open `index.html` in any browser — no server or build step needed.
